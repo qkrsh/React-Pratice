@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import CommentList from './comment/CommentList';
+import Accommodate from './hooks/Accomodate';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Accommodate />
   </React.StrictMode>
 );
 
